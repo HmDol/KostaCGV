@@ -1,0 +1,57 @@
+insert into movie values ( 10108 , '왕의남자' , TO_DATE('23/09/01 ','YY/MM/DD ' ),'08:30' , '브로맨스' , '로맨스'); 
+insert into movie values ( 10110 , '왕의남자' , TO_DATE('23/09/01 ','YY/MM/DD ' ),'10:30' , '브로맨스' , '로맨스'); 
+insert into movie values ( 10113 , '왕의남자' , TO_DATE('23/09/01 ','YY/MM/DD ' ),'13:30' , '브로맨스' , '로맨스'); 
+insert into movie values ( 10116 , '왕의남자' , TO_DATE('23/09/01 ','YY/MM/DD ' ),'16:30' , '브로맨스' , '로맨스'); 
+insert into movie values ( 10119 , '왕의남자' , TO_DATE('23/09/01 ','YY/MM/DD ' ),'19:30' , '브로맨스' , '로맨스'); 
+insert into movie values ( 10121 , '왕의남자' , TO_DATE('23/09/01 ','YY/MM/DD ' ),'21:30' , '브로맨스' , '로맨스'); 
+insert into movie values ( 10808 , '왕의남자' , TO_DATE('23/09/11 ','YY/MM/DD ' ),'08:30' , '브로맨스' , '로맨스'); 
+insert into movie values ( 10810 , '왕의남자' , TO_DATE('23/09/11 ','YY/MM/DD ' ),'10:30' , '브로맨스' , '로맨스'); 
+insert into movie values ( 10813 , '왕의남자' , TO_DATE('23/09/11 ','YY/MM/DD ' ),'13:30' , '브로맨스' , '로맨스'); 
+insert into movie values ( 10816 , '왕의남자' , TO_DATE('23/09/11 ','YY/MM/DD ' ),'16:30' , '브로맨스' , '로맨스'); 
+insert into movie values ( 10819 , '왕의남자' , TO_DATE('23/09/11 ','YY/MM/DD ' ),'19:30' , '브로맨스' , '로맨스'); 
+insert into movie values ( 10821 , '왕의남자' , TO_DATE('23/09/11 ','YY/MM/DD ' ),'21:30' , '브로맨스' , '로맨스'); 
+
+
+
+insert into movie values (20208, '타이타닉' , TO_DATE('23/09/02 ','YY/MM/DD ' ),'08:30' , '침몰하는 유람선에서 볼수있는 인간상' , '로맨스');
+insert into movie values (20210, '타이타닉' , TO_DATE('23/09/02 ','YY/MM/DD ' ),'10:30' , '침몰하는 유람선에서 볼수있는 인간상' , '로맨스');
+insert into movie values (20213, '타이타닉' , TO_DATE('23/09/02 ','YY/MM/DD ' ),'13:30' , '침몰하는 유람선에서 볼수있는 인간상' , '로맨스');
+insert into movie values (20216, '타이타닉' , TO_DATE('23/09/02 ','YY/MM/DD ' ),'16:30' , '침몰하는 유람선에서 볼수있는 인간상' , '로맨스');
+insert into movie values (20219, '타이타닉' , TO_DATE('23/09/02 ','YY/MM/DD ' ),'19:30' , '침몰하는 유람선에서 볼수있는 인간상' , '로맨스');
+insert into movie values (20221, '타이타닉' , TO_DATE('23/09/02 ','YY/MM/DD ' ),'21:30' , '침몰하는 유람선에서 볼수있는 인간상' , '로맨스');
+insert into movie values (20908, '타이타닉' , TO_DATE('23/09/11 ','YY/MM/DD ' ),'08:30' , '침몰하는 유람선에서 볼수있는 인간상' , '로맨스');
+insert into movie values (20910, '타이타닉' , TO_DATE('23/09/11 ','YY/MM/DD ' ),'10:30' , '침몰하는 유람선에서 볼수있는 인간상' , '로맨스');
+insert into movie values (20913, '타이타닉' , TO_DATE('23/09/11 ','YY/MM/DD ' ),'13:30' , '침몰하는 유람선에서 볼수있는 인간상' , '로맨스');
+insert into movie values (20916, '타이타닉' , TO_DATE('23/09/11 ','YY/MM/DD ' ),'16:30' , '침몰하는 유람선에서 볼수있는 인간상' , '로맨스');
+insert into movie values (20919, '타이타닉' , TO_DATE('23/09/11 ','YY/MM/DD ' ),'19:30' , '침몰하는 유람선에서 볼수있는 인간상' , '로맨스');
+insert into movie values (20921, '타이타닉' , TO_DATE('23/09/11 ','YY/MM/DD ' ),'21:30' , '침몰하는 유람선에서 볼수있는 인간상' , '로맨스');
+
+
+
+
+insert into movie values(30308, '슈퍼맨' , TO_DATE('23/09/03 ','YY/MM/DD ' ),'08:30' , '잭스나이더의 슈퍼맨..! 더이상의 설명이 필요없다!' , '히어로 액션');
+insert into movie values(30310, '슈퍼맨' , TO_DATE('23/09/03 ','YY/MM/DD ' ),'10:30' , '잭스나이더의 슈퍼맨..! 더이상의 설명이 필요없다!' , '히어로 액션');
+insert into movie values(30313, '슈퍼맨' , TO_DATE('23/09/03 ','YY/MM/DD ' ),'13:30' , '잭스나이더의 슈퍼맨..! 더이상의 설명이 필요없다!' , '히어로 액션');
+insert into movie values(30316, '슈퍼맨' , TO_DATE('23/09/03 ','YY/MM/DD ' ),'16:30' , '잭스나이더의 슈퍼맨..! 더이상의 설명이 필요없다!' , '히어로 액션');
+insert into movie values(30319, '슈퍼맨' , TO_DATE('23/09/03 ','YY/MM/DD ' ),'19:30' , '잭스나이더의 슈퍼맨..! 더이상의 설명이 필요없다!' , '히어로 액션');
+insert into movie values(30321, '슈퍼맨' , TO_DATE('23/09/03 ','YY/MM/DD ' ),'21:30' , '잭스나이더의 슈퍼맨..! 더이상의 설명이 필요없다!' , '히어로 액션');
+insert into movie values(31008, '슈퍼맨' , TO_DATE('23/09/11 ','YY/MM/DD ' ),'08:30' , '잭스나이더의 슈퍼맨..! 더이상의 설명이 필요없다!' , '히어로 액션');
+insert into movie values(31010, '슈퍼맨' , TO_DATE('23/09/11 ','YY/MM/DD ' ),'10:30' , '잭스나이더의 슈퍼맨..! 더이상의 설명이 필요없다!' , '히어로 액션');
+insert into movie values(31013, '슈퍼맨' , TO_DATE('23/09/11 ','YY/MM/DD ' ),'13:30' , '잭스나이더의 슈퍼맨..! 더이상의 설명이 필요없다!' , '히어로 액션');
+insert into movie values(31016, '슈퍼맨' , TO_DATE('23/09/11 ','YY/MM/DD ' ),'16:30' , '잭스나이더의 슈퍼맨..! 더이상의 설명이 필요없다!' , '히어로 액션');
+insert into movie values(31019, '슈퍼맨' , TO_DATE('23/09/11 ','YY/MM/DD ' ),'19:30' , '잭스나이더의 슈퍼맨..! 더이상의 설명이 필요없다!' , '히어로 액션');
+insert into movie values(31021, '슈퍼맨' , TO_DATE('23/09/11 ','YY/MM/DD ' ),'21:30' , '잭스나이더의 슈퍼맨..! 더이상의 설명이 필요없다!' , '히어로 액션');
+
+
+insert into movie values(40408, '엘리멘탈' , TO_DATE('23/09/04 ','YY/MM/DD ' ),'08:30' , '원소가 보여주는 우리모습' , '가족영화');
+insert into movie values(40410, '엘리멘탈' , TO_DATE('23/09/04 ','YY/MM/DD ' ),'10:30' , '원소가 보여주는 우리모습' , '가족영화');
+insert into movie values(40413, '엘리멘탈' , TO_DATE('23/09/04 ','YY/MM/DD ' ),'13:30' , '원소가 보여주는 우리모습' , '가족영화');
+insert into movie values(40416, '엘리멘탈' , TO_DATE('23/09/04 ','YY/MM/DD ' ),'16:30' , '원소가 보여주는 우리모습' , '가족영화');
+insert into movie values(40419, '엘리멘탈' , TO_DATE('23/09/04 ','YY/MM/DD ' ),'19:30' , '원소가 보여주는 우리모습' , '가족영화');
+insert into movie values(40421, '엘리멘탈' , TO_DATE('23/09/04 ','YY/MM/DD ' ),'21:30' , '원소가 보여주는 우리모습' , '가족영화');
+insert into movie values(41108, '엘리멘탈' , TO_DATE('23/09/11 ','YY/MM/DD ' ),'08:30' , '원소가 보여주는 우리모습' , '가족영화');
+insert into movie values(41110, '엘리멘탈' , TO_DATE('23/09/11 ','YY/MM/DD ' ),'10:30' , '원소가 보여주는 우리모습' , '가족영화');
+insert into movie values(41113, '엘리멘탈' , TO_DATE('23/09/11 ','YY/MM/DD ' ),'13:30' , '원소가 보여주는 우리모습' , '가족영화');
+insert into movie values(41116, '엘리멘탈' , TO_DATE('23/09/11 ','YY/MM/DD ' ),'16:30' , '원소가 보여주는 우리모습' , '가족영화');
+insert into movie values(41119, '엘리멘탈' , TO_DATE('23/09/11 ','YY/MM/DD ' ),'19:30' , '원소가 보여주는 우리모습' , '가족영화');
+insert into movie values(41121, '엘리멘탈' , TO_DATE('23/09/11 ','YY/MM/DD ' ),'21:30' , '원소가 보여주는 우리모습' , '가족영화');

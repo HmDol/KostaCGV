@@ -1,0 +1,66 @@
+drop SEQUENCE seq_pay;
+drop SEQUENCE seq_review;
+drop table purchase;
+drop table review;
+drop table pay;
+drop table market;
+drop table seat;
+drop table movie;
+drop table member;
+
+create table member(
+id varchar2(20) primary key,
+pwd varchar2(20) not null,
+name varchar2(50)not null,
+phone varchar2(50) not null,
+email varchar2(50) not null
+);
+
+create table movie(
+Moviecode number primary key,
+MovieTitle varchar2 (100) not null,
+MovieDate Date not null,
+StartTime varchar2 (20) not null,
+Story varchar2 (100) not null,
+genre varchar(100) not null
+);
+
+create table seat(
+seatcode varchar(20) primary key,
+seatname varchar(20) not null,
+isres number(3) not null,
+moviecode varchar(20) not null
+);
+
+create table market(
+snack varchar(20) primary key,
+price number not null,
+amount number not null
+);
+
+create table purchase(
+id varchar2(20) references member(id) on delete cascade,
+snack varchar(20)  not null,
+amount number(10) not null
+);
+
+create table Review(
+reviewnum number primary key,
+ReviewTitle varchar2(50) not null,
+content varchar2(100)not null,
+name varchar2(50),
+wdate date not null,
+rating number(3) not null,
+id varchar(20) references member(id) on delete cascade
+);
+create sequence seq_review;
+
+create table pay(
+payCode number primary key,
+payMethod varchar(10) not null,
+payDate Date not null,
+memId varchar(20) references member(id) on delete cascade,
+seatCode varchar(20) references Seat(seatCode) on delete cascade,
+movieCode number references Movie(MovieCode) on delete cascade
+);
+create sequence seq_pay;
